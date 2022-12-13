@@ -28,3 +28,18 @@ img {
     text-align: center;
     margin-bottom: 20px;
 }
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    .text {
+        margin-top: 20px;
+    }
+    img {
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
+}
